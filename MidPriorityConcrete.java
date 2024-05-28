@@ -1,4 +1,4 @@
-package NewLab6;
+package NewLab6.CSE305_LAB6;
 
 import java.util.Calendar;
 
@@ -7,22 +7,6 @@ public  class MidPriorityConcrete implements RequestProduct {
     private String expireDay;
     private String status;
 
-    
-    public String getPriority() {
-        return priority;
-    }
-
-    public String getExpireDay() {
-        return expireDay;
-    }
-
-    public void setExpireDay(String expireDay) {
-        this.expireDay = expireDay;
-    }
-
-    public String getStatus() {
-        return status;
-    }
 
     @Override
     public void setPriority(String priority) {

@@ -1,4 +1,4 @@
-package NewLab6;
+package NewLab6.CSE305_LAB6;
 
 public class Main {
     public static void main(String[] args) {
@@ -14,7 +14,7 @@ public class Main {
         RequestCreator creator2 = new MidPriorityConcreteCreator();
         RequestProduct request2 = creator2.createRequest();
         request2.setPriority("Medium"); 
-        request2.setExpire(""); // Call setExpire("") to set the expireDay field
+        request2.setExpire(""); 
         request2.processRequest();
 
 
