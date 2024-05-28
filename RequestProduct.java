@@ -1,4 +1,4 @@
-package NewLab6;
+package NewLab6.CSE305_LAB6;
 
 // Interface: requestProduct
 interface RequestProduct {

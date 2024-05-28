@@ -1,4 +1,4 @@
-package NewLab6;
+package CSE305_LAB6;
 
 import java.util.Calendar;
 
